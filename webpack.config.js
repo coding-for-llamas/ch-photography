@@ -13,11 +13,11 @@ const ensureArray = (config) => config && (Array.isArray(config) ? config : [con
 const when = (condition, config, negativeConfig) => (condition ? ensureArray(config) : ensureArray(negativeConfig));
 
 // primary config:
-const title = 'Caring Child Daycare';
+const title = 'C.H Photography';
 const outDir = path.resolve(__dirname, 'dist');
 const srcDir = path.resolve(__dirname, 'src');
 const nodeModulesDir = path.resolve(__dirname, 'node_modules');
-const baseUrl = '/daycare';
+const baseUrl = '/';
 const scssRules = [{ loader: 'sass-loader' }];
 
 module.exports = ({
@@ -52,9 +52,9 @@ module.exports = ({
     // // serve index.html for all 404 (required for push-state)
     historyApiFallback: {
       rewrites: [
-        { from: /^\/$/, to: '/daycare' },
-        { from: /^\//, to: '/daycare' },
-        { from: /./, to: '/daycare' },
+        { from: /^\/$/, to: '/' },
+        { from: /^\//, to: '/' },
+        { from: /./, to: '/' },
       ],
     },
     port: parseInt(process.env.PORT, 10),
