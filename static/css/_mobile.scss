@@ -1,0 +1,48 @@
+@include menu;
+
+@media screen and (max-width: 768px) {
+    @include mobileMenu;
+
+    // Tablets & Small Laptops
+    @include mediaMd {
+        main {
+            align-items: center;
+            text-align: center;
+        }
+
+        ul.menu-nav,
+        div.menu-branding {
+            float: none;
+            width: 100%;
+            min-height: 0;
+        }
+
+        .menu-nav {
+            height: 75vh;
+            transform: translate3d(-100%, 0, 0);
+            font-size: 24px;
+        }
+    }
+
+    // Smartphones
+    @include mediaSm {
+        .siteContent {
+            margin-top: 5rem;
+        }
+
+        .page-content {
+            margin-left: 0;
+            margin-top: 0;
+        }
+
+        main {
+            padding: 2rem;
+            margin-top: -70px;
+            margin-left: -15px;
+        }
+
+        ul {
+            margin-left: -40px;
+        }
+    }
+}
