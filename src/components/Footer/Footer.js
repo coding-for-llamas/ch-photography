@@ -7,8 +7,10 @@ function getFullYear() {
 }
 const Footer = () => (
   <footer id="main-footer">
-    Copyright &copy; 2018-
+    Copyright &copy; 2014-
     {getFullYear()}
+    {' '}
+    by Caledonia Hanson Photography.
   </footer>
 );
 
