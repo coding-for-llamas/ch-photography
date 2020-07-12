@@ -20,10 +20,21 @@ const AboutContent = () => (
       </p>
     </div>
     <div className="social-media">
-      <p>Add FB and Flicker links/icons</p>
+      <a href="https://www.facebook.com/CH-Photography-351092558361890/" aria-label="Facebook Page">
+        <i className="fab fa-facebook fa-2x" />
+        Like me on Facebook!
+      </a>
+      <a href="https://www.flickr.com/" aria-label="Flickr Page">
+        <i className="fab fa-flickr" />
+        Follow me on Flickr!
+      </a>
+      <a href="https://www.instagram.com/flashyfashionfraud/?hl=en" aria-label="Instagram Page">
+        <i className="fab fa-instagram" />
+        Follow me on Instagram!
+      </a>
     </div>
     <div className="about-portrait">
-      <p>Add Caledonia&apos;s About portrait</p>
+      <img src="https://dl.dropboxusercontent.com/s/g3nrp8w829wqbft/Caledonia_Portrait_Lg.png?dl=0" alt="A portait of Caledonia" />
     </div>
   </main>
 );

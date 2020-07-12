@@ -7,7 +7,10 @@ const PackagesContent = () => (
       <p>I have a large selection of prices and packages to fit every model&apos;s need no matter how big or small.</p>
     </div>
     <div className="packages-portrait">
-      <p>Add packages portrait here.</p>
+      <img
+        src="https://dl.dropboxusercontent.com/s/3ur9baqrrpf5ox3/Packages_Portrait_Image.png?dl=0"
+        alt="A person in a blue dress sitting in front of a rock formation."
+      />
     </div>
     <div className="package-row-1">
       <div className="col">

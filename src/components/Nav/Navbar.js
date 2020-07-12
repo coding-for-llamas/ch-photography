@@ -25,7 +25,11 @@ export default class Navigation extends Component {
           ) : (
             <nav className="menu flex">
               <ul className="menu-nav">
-                <li className="nav-item"><NavLink to="/" className="nav-link" exact activeClassName="active">Home</NavLink></li>
+                <li className="nav-item"><NavLink to="/" className="nav-link" exact activeClassName="active">HOME</NavLink></li>
+                <li className="nav-item"><NavLink to="/about" className="nav-link" exact activeClassName="active">ABOUT</NavLink></li>
+                <li className="nav-item"><NavLink to="/portfolio" className="nav-link" exact activeClassName="active">PORTFOLIO</NavLink></li>
+                <li className="nav-item"><NavLink to="/contact" className="nav-link" exact activeClassName="active">CONTACT</NavLink></li>
+                <li className="nav-item"><NavLink to="/packages" className="nav-link" exact activeClassName="active">PRICES/PACKAGES</NavLink></li>
               </ul>
             </nav>
           )}
