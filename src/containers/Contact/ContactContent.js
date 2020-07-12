@@ -9,13 +9,21 @@ const ContactContent = () => (
       <a href="tel:9497519623">(949) 751-9623</a>
     </div>
     <div className="rounded-portrait">
-      <p>Add caledonia&apos;s portrait here, with rounded styling.</p>
+      <img src="https://dl.dropboxusercontent.com/s/g3nrp8w829wqbft/Caledonia_Portrait_Lg.png?dl=0" alt="A portait of Caledonia" />
     </div>
     <div className="contact-form">
       <p>Add in contact form here</p>
     </div>
     <div className="thumbtack-link">
-      <p>Add thumbtack link/iconography here.</p>
+      <div className="thumbtack-1">
+        <a href="https://www.thumbtack.com/ca/los-angeles/event-photographers/caledonia-hanson-photography/service/234009076061431007?project_pk=">
+          <img
+            src="https://static.thumbtackstatic.com/media/pages/profile/standard-widgets/pro-svg/orange/2015.svg"
+            alt="A badge from Thumbtack for a reward won in 2015 for professionalism."
+          />
+          Book me on Thumbtack
+        </a>
+      </div>
     </div>
   </main>
 );
